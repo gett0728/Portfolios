@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+}
+
+#drop-area {
+    border: 2px dashed #ccc;
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    color: #aaa;
+}
+
+#drop-area.dragover {
+    border-color: #000;
+    color: #000;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
